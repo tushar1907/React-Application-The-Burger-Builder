@@ -1,6 +1,6 @@
 import React from 'react'
 
-const aux = (props) => props.children
+const auxillary = (props) => props.children
 
 
-export default aux
+export default auxillary

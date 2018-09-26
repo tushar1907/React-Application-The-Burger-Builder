@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import classes from './BurgerIngredientcss'
+import classes from './BurgerIngredient.css'
 import PropTypes from 'prop-types'
 
 
@@ -23,8 +23,8 @@ class BurgerIngredient extends Component {
             case ('meat'):
                 ingredient = <div className={classes.Meat}></div>;
                 break;
-            case ('cheeze'):
-                ingredient = <div className={classes.Cheeze}></div>;
+            case ('cheese'):
+                ingredient = <div className={classes.Cheese}></div>;
                 break;
             case ('bacon'):
                 ingredient = <div className={classes.Bacon}></div>;
